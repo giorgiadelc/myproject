@@ -1,9 +1,14 @@
 # hello_world.py
 
+# Define a function that takes a name as input and returns a greeting message
 def greet(name):
     return f"Hello, {name}! Welcome to your first GitHub repository."
 
+# Ensuring that the code is working properly
 if __name__ == "__main__":
+    # Ask user to enter name
     user_name = input("Enter your name: ")
+    # Call the greet function with user's name and store the result
     message = greet(user_name)
+    # Print the personalized message
     print(message)
